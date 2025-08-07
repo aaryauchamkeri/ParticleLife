@@ -161,7 +161,7 @@ int main() {
         }
 
         SDL_SetRenderTarget(renderer, canvas);
-        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 50);
+        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 15);
         SDL_RenderFillRect(renderer, NULL);
         draw_particles(renderer);
         SDL_SetRenderTarget(renderer, NULL);
